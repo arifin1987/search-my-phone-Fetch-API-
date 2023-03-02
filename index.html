@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search my Phone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <main class="container">
+
+        <!-- search field added -->
+        <section>
+            <input id="search-field" type="text" placeholder="search your phone" class="w-50">
+            <button id="btn-search" class="btn btn-primary d-block">Search Phone</button>
+        </section>
+
+        <!-- card -->
+    <section>
+        <div id="card-container" class="row row-cols-1 row-cols-md-3 g-4">
+            
+            
+          </div>
+          <!-- no phone found message -->
+          <div id="no-phone" class="mt-5 d-none">
+            <h3 class="text-primary">No phone found. Try a new search</h3>
+          </div>
+
+    </section>
+    <!-- Spinner added -->
+    <section id="loader" class="d-none">
+        <div style="height: 400px;"  class="d-flex justify-content-center align-items-centers ">
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </section>
+    
+
+
+
+    </main>
+    
+    
+    
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
